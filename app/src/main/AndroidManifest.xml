@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.srijanrana.librarymanagement" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".flogin"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".faculty1Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".slogin"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".student1Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".BookList"
+            android:label="@string/title_activity_book_list" >
+        </activity>
+        <activity
+            android:name=".SProfile"
+            android:label="@string/title_activity_sprofile" >
+        </activity>
+        <activity
+            android:name=".FProfile"
+            android:label="@string/title_activity_fprofile" >
+        </activity>
+        <activity
+            android:name=".ReturnList"
+            android:label="@string/title_activity_return_list" >
+        </activity>
+        <activity
+            android:name=".signup"
+            android:label="@string/title_activity_signup" >
+        </activity>
+    </application>
+
+</manifest>

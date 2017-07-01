@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#ddd7a5"
+    android:id="@+id/facultyl">
+
+
+    <ImageView
+        android:src="@drawable/a"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/TVfwelcome"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:id="@+id/Bfprofile"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/TVfwelcome"
+        android:layout_centerHorizontal="true"
+        android:onClick="onCLickProfile"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Issue Book"
+        android:id="@+id/Bfissue"
+        android:layout_below="@+id/Bfprofile"
+        android:layout_alignLeft="@+id/Bfprofile"
+        android:layout_alignStart="@+id/Bfprofile"
+        android:onClick="bookList"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Return Book"
+        android:id="@+id/Bfreturn"
+        android:layout_below="@+id/Bfissue"
+        android:layout_alignLeft="@+id/Bfissue"
+        android:layout_alignStart="@+id/Bfissue"
+        android:onClick="returnBook"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/Bflogout"
+        android:layout_below="@+id/Bfreturn"
+        android:layout_alignLeft="@+id/Bfreturn"
+        android:layout_alignStart="@+id/Bfreturn"
+        android:onClick="logout"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
